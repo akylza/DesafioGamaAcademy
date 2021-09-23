@@ -3,17 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="JB_imagens/recruitment.png" alt="Logo_JobsNet">
+    <link rel="icon" href="img/logo.png" alt="Logo_JobsNet">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="Jobs_Net.css">
+    <link rel="stylesheet" href="Jobsnet.css">
     
     <title>JobsNet</title>
 </head>
 <body>
     <header>
-        <div id="bg-principal"></div>
         <div class="caixa">
-            <h1><img src="JB_imagens/recruitment.png" width="8%">JobsNET</h1>
+            <h1><img src="img/logo.png" href='Jobsnet.html' width="8%" >JobsNET</h1>
             <nav>
                 <ul>
                     <li><a href='sobre.html'>Sobre</a></li>
@@ -26,10 +25,10 @@
 
     <div class="container">
         <form action="#" method="GET">
-            <div class="formtitle">PREENCHA NOSSO FORMULÁRIO</div><br>
+            <div class="formtitle">Preencha nosso formulário e deixe com a gente!</div><br>
                 <div class="dadosusuario">
                     <fieldset>
-                    <legend>DADOS PESSOAIS</legend>
+                    <legend>Dados Pessoais</legend>
                     <label for="nome">Nome Completo:</label><span class="required"></span>
                     <input type="text" id="nomecompleto" class="input-padrao" required><br>
                     <label for="cargo">Cargo Pretendido:</label><span class="required"></span>
@@ -46,10 +45,12 @@
                         <option>Outro</option>
                     </select> 
                     <label> Gênero: </label>
-                    <select id="Gênero">
+                    <select id="genero">
                         <option selected disabled value=""></option>
-                        <option>Feminino</option>
-                        <option>Masculino</option>
+                        <option>Mulher cisgênero</option>
+                        <option>Mulher transgênero</option>
+                        <option>Homem cisgênero</option>
+                        <option>Homem transgênero</option>
                         <option>Outro</option>
                     </select>
                     <br>
@@ -71,16 +72,16 @@
                     <input type="text" id="email" placeholder="seunome@dominio.com" class="input-padrao" required/><br>
                     </fieldset>
                     <fieldset> 
-                    <legend>DOCUMENTOS</legend>
+                    <legend>Documentos</legend>
                     <label for="id">Identidade: </label><span class="required"></span>
                     <input type="text" id="id" class="input-padrao" required/><br>
                     <label for="cpf">CPF: </label><span class="required"></span>
                     <input type="text" id="CPF" class="input-padrao" required/><br>  
-                    <label for="veiculo"> Possui veículo?:</label>
+                    <label for="veiculo"> Possui veículo?</label>
                     <input type="radio" name="veiculo" id="veiculo" class="input-sn" value="Sim" checked>Sim
                     <input type="radio" name="veiculo" id="veiculo" class="input-sn" value="Não">Não
                     <br>
-                    <label>Possui habilitação? </label>
+                    <label for="habilitacao">Possui habilitação? </label>
                     <input type="radio" name="habilitacao" id="habilitacao" class="input-sn" value="Sim" checked>Sim
                     <input type="radio" name="habilitacao" id="habilitacao" class="input-sn" value="Não">Não
                     <br>
