@@ -5,28 +5,23 @@
     font-family: sans-serif;
 }
 
-
 body {
     display: auto;
     justify-content: center;
     align-items: center;
-    background-image: url("JB_imagens/monica-sauro-Z3vq1JvQZ-Y-unsplash.jpg");
-    background-size: cover;
+    background-image: url("img/bg.jpg");
+    background-size: 200%;
     background-repeat: no-repeat;
 }
 
-.bg-principal {
-    margin-right: auto;
-    margin-left: auto;
-}
-
 header {
-    background: #008000;
-    color: #90EE90;
+    background: #008B8B;
+    color: #B0E0E6;
+    top: 50px;
+    font-size: 22px;
 }
 
 .caixa {
-
 	width: 940px;
 	margin: 0 auto;
     padding: 20px;
@@ -36,6 +31,7 @@ nav {
     position: absolute;
     top: 50px;
     right: 0%;
+    left: 70%;
 }
 
 nav li {
@@ -44,23 +40,28 @@ nav li {
 }
 
 nav a {
-    text-transform: uppercase;
-    color: #90EE90;
+    color: #B0E0E6;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
 }
 
+nav a:hover {
+    font-size: 22px;
+    color: #7FFFD4;
+}
+
 h1 {
     font-weight: bold;
+    text-transform: uppercase;
+
 }
 
 .container {
     box-sizing: border-box;
-    display: grid;
+    display: flex;
     justify-content: end;
     padding: 0;
-
 }
 
 .container div {
@@ -71,36 +72,31 @@ h1 {
 form {
     margin-top: 0em;
     margin: 0em;
-    width: 100%;
+    width: 55%;
     padding: 50px;
-    background-color: #FFF5EE;
-    color: #F4A460;
+    background-color: #F0FFFF;
+    color: #008B8B;
     position: relative;
 }
 
 .formtitle {
     display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    font-size: 1em;
     font-weight: bold;
     align-content: center;
     font-family: sans-serif;
-    font-weight: 700;
     text-align: center;
-    font-size: 1.15em;
     letter-spacing: 0em;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 
 label {
     padding: 5px;
-    margin-left: 25px;
-    margin-top: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
     width: 100px;
     font-size: 16px;
     font-weight: 400px;
@@ -108,8 +104,17 @@ label {
     justify-content: space-between;
 }
 
+#estadocivil, #genero {
+    background: #B0E0E6;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #008080;
+}
+
 .input-padrao {
-    display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     font-family: sans-serif;
@@ -117,19 +122,15 @@ label {
     border-radius: 10px;
     border-style: none;
     outline: none;
-    background: #FFDAB9;
+    background: #B0E0E6;
     width: 60%;
     resize: none;
-
+    color: #008080;
 }
 
 .input-sn {
     margin: 0 0 20px;
-    align-items: center;
-    vertical-align: center;
     margin-right: 5px;
-    display: inline-block;
-    font-size: 16px;
 }
 
 .required::after {
@@ -140,10 +141,11 @@ label {
 
 legend {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 0 10px;
     font-weight:bold;
-    font-style:italic;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 #button {
@@ -155,26 +157,26 @@ legend {
     letter-spacing: 1px;
     cursor: pointer;
     text-decoration: none;
-    background-color: #F4A460;
+    background-color: #ADD8E6;
     display: auto;
     align-content: center;
-    color: #FFF5EE;
+    color: #E0FFFF;
     font-weight: bold;
     transition: 1s all;
 }
 
 #button:hover {
-    background-color:salmon;
+    background-color:#008B8B;
+    font-size: 18px;
     
 }
 
-
 footer {
-    background-color: #008000;
+    background-color: #008B8B;
     padding: 30px;
     text-size-adjust: 100%;
     font-size: 14px;
-    color: #90EE90;
+    color: #B0E0E6;
 }
 
 
@@ -192,4 +194,8 @@ footer li  {
     justify-content: center;
 }
 
+h1 .pgdesenvol {
+    width: 100%;
+    color: red;
+}
 
