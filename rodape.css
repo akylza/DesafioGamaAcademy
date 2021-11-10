@@ -1,0 +1,27 @@
+footer {
+    background-color: #753a57;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.dadosfooter {
+    color: #f17893;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+}
+
+.footer_lista {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.item_footer {
+    padding-left: 50px;
+    align-items: center;
+}

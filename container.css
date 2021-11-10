@@ -1,0 +1,106 @@
+.grid_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0;
+    background-image: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.formtitle {
+    color: #F0E68C;
+    text-transform: uppercase;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.dadosusuario {
+    background-color: #FFF0F5;
+    padding-left: 10px;
+    line-height: 5px;
+    text-align: justify;
+}
+
+.dadosusuario_form {
+    padding: 10px;
+    box-sizing: 50%;
+    color: #753a57;
+    text-align: left;
+}
+
+.form_title {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dadosusuario_fi {
+    padding-bottom: 10px;
+}
+
+.dados_title {
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label {
+    line-height: 30px;
+}
+
+.input-padrao {
+    width: 80%;
+    background-color: #ffabbb;
+    border-radius: 5px;
+    border: none;
+    line-height: 25px;
+}
+
+.required::after {
+    content:"*"; 
+    color: red;
+
+}
+
+.label_select {
+    width: 15%;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: #ffabbb;
+    border-radius: 5px;
+    border: none;
+    line-height: 25px;
+}
+
+input:checked, .checkmark  {
+    background-color: #ffabbb
+} 
+
+.botaodados {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    text-transform: uppercase;
+    background-color: #a95372;
+    margin-top: 10px;
+    color: #fff;
+    padding: 10px;
+    justify-self: center;
+    width: 220px;
+    border: none;
+    border-radius: 7px;
+}
+
+.botao:hover {
+    background-color: #f17893;
+    transform: translate(0, .22rem)
+}
