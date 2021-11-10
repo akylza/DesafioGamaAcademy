@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+header {
+    background-color:#532a46;
+    color: #f17893;
+    width: 100%;
+    box-sizing: border-box;
+    display:inline-block;
+}
+
+.nome {
+    text-transform: uppercase;
+    position: fixed;
+    left: 40px;
+}
+
+.caixa {
+    margin: 20px 5px 26px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navnav {
+    display: flex;
+}
+
+.nav_item {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 40px;
+    color: #f17893;
+}
+
+.nav_item:hover {
+    color: #ffabbb;
+}
+
+
+
